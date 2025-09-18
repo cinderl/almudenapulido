@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almudena Pulido - Dietista & Nutricionista</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #F5F4EE;
+      color: #4a4a4a;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .logo {
+      margin: 20px auto;
+      width: 240px;
+    }
+
+    .icon {
+      width: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 400;
+      margin: 10px 0;
+      color: #56554B;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      color: #6d6d6d;
+      margin-bottom: 30px;
+    }
+
+    .contact {
+      font-size: 16px;
+      margin-top: 40px;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .contact p {
+      margin: 16px 0;
+      padding: 12px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .contact p:hover {
+      background-color: rgba(223, 208, 190, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .contact a {
+      color: #56554B;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .contact a:hover {
+      color: #7a8c7a;
+    }
+
+    .circle {
+      border: 2px solid #c0c0b5;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .leaf {
+      font-size: 40px;
+      color: #7a8c7a;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(245, 244, 238, 0.95);
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      color: #56554B;
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 1px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #7a8c7a;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 80px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #sobre-mi {
+      background-color: rgba(223, 208, 190, 0.1);
+      padding: 100px 20px;
+    }
+
+    #precios {
+      background-color: rgba(122, 140, 122, 0.05);
+    }
+
+    #precios .info {
+      max-width: 500px;
+    }
+
+    #sobre-mi .info {
+      max-width: 600px;
+    }
+
+    .info {
+      max-width: 400px;
+      margin: 40px auto 20px;
+      text-align: left;
+    }
+
+    .info strong {
+      display: block;
+      margin-top: 20px;
+      color: #56554B;
+    }
+
+    .info p {
+      margin: 10px 0;
+      color: #6d6d6d;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px auto;
+      max-width: 400px;
+      text-align: left;
+    }
+
+    nav li {
+      margin: 0;
+      padding: 0;
+    }
+
+    section li {
+      margin: 12px 0;
+      padding-left: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #56554B;
+    }
+
+    section li::before {
+      content: "✓";
+      color: #7a8c7a;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#inicio">⌂</a></li>
+      <li><a href="#sobre-mi">SOBRE MÍ</a></li>
+      <li><a href="#precios">PRECIOS</a></li>
+      <li><a href="#contacto">CONTACTO</a></li>
+    </ul>
+  </nav>
+
+  <section id="inicio">
+    <!-- Logo / Symbol -->
+    <div>
+      <img src="almulogo.png" alt="Logo" class="logo">
+    </div>
+
+    <!-- Name -->
+    <h1>ALMUDENA PULIDO</h1>
+    <h2>DIETISTA · NUTRICIONISTA</h2>
+    <h3>Mejora tu salud a través de la comida ✦</h3>
+    <ul>
+      <li>Perdida de peso</li>
+      <li>Nutrición deportiva</li>
+      <li>Educación alimentaria</li>
+      <li>Mejora en los hábitos y salud digestiva</li>
+    </ul>
+  </section>
+
+  <section id="precios">
+    <h2 style="text-align: center; margin-bottom: 40px; color: #56554B;">Tarifas y Servicios</h2>
+    <div class="info">
+      <div style="background: rgba(255, 255, 255, 0.6); padding: 30px; border-radius: 12px; margin-bottom: 20px;">
+        <strong>Primera Visita - 60€</strong>
+        <p>
+          Incluye una completa anamnesis, estudio morfológico, diagnóstico y un plan de nutrición personalizado.    
+        </p>
+      </div>
+      <div style="background: rgba(255, 255, 255, 0.6); padding: 30px; border-radius: 12px;">
+        <strong>Seguimiento - 35€</strong>
+        <p>
+          Ajustes en la evolución del plan de nutrición para lograr tus objetivos de salud y bienestar.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi">
+    <div class="info">
+      <h2 style="text-align: center; margin-bottom: 30px;">Sobre mí</h2>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Soy Almudena Pulido, Dietista-Nutricionista colegiada nº XXXXX por el Colegio Profesional de Dietistas-Nutricionistas.
+      </p>
+      <p style="margin-top: 20px;">
+        Mi enfoque se centra en proporcionar un asesoramiento nutricional personalizado, basado en la evidencia científica 
+        y adaptado a las necesidades individuales de cada persona.
+      </p>
+      <p style="margin-top: 20px;">
+        Con años de experiencia en el campo de la nutrición, me especializo en ayudar a las personas a alcanzar sus objetivos 
+        de salud a través de una alimentación equilibrada y sostenible.
+      </p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="contact">
+      <p><img src="phone.png" class="icon" /> <a href="tel:+34620456071">+34 620 45 60 71</a></p>
+      <p><img src="mail.png" class="icon" /> <a href="mailto:almudena@99ideas.es">almudena@99ideas.es</a></p>
+      <p><img src="instagram.png" class="icon" /> <a
+          href="https://www.instagram.com/gastrofitbio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank">@gastrofitbio</a></p>
+    </div>
+  </section>
+</body>
+
+</html>
