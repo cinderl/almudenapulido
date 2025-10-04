@@ -11,6 +11,16 @@ body {
     width: 240px;
 }
 
+#footer{
+    background-color: rgba(223, 208, 190, 0.1);
+    padding: 20px;
+}
+
+.footer-logo {
+    /* margin: 20px auto; */
+    max-width: 240px;
+}
+
 .icon {
     width: 20px;
 }
